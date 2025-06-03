@@ -11,7 +11,7 @@ time = int(input("enter for how many year:- "))
 if age <= 60:
     if gender =="MALE" or gender == "male":
         print("OUTPUT\n")
-        print("your name is ", name)
+        print("your name is ", name,"\n")
         print("you are an male senior cetizen")
         print("Your interest is 4%")
         interest = (balance*4*time)/100
@@ -20,7 +20,7 @@ if age <= 60:
         
     else:
         print("OUTPUT\n")
-        print("your name is ", name)
+        print("your name is ", name,"\n")
         print("you are an female ")
         print("Your interest is 5%")
         interest = (balance*5*time)/100
@@ -28,7 +28,7 @@ if age <= 60:
         print("your balance amount is :- ", balance + interest)
 else:
     print("OUTPUT\n")
-    print("your name is ", name)
+    print("your name is ", name,"\n")
     print("you are a senoior cetizen")
     print("Your interest is 7%")
     interest = (balance*7*time)/100
