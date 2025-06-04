@@ -12,7 +12,7 @@ if age <= 60:
     if gender =="MALE" or gender == "male":
         print("OUTPUT\n")
         print("your name is ", name,"\n")
-        print("you are an male senior cetizen")
+        print("you are an male")
         print("Your interest is 4%")
         interest = (balance*4*time)/100
         print("your interest is ", interest)
