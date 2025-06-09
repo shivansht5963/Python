@@ -1,0 +1,16 @@
+rnn 
+. memory 
+. sequential dtata 
+\
+. qradient exploading discent
+
+. sine of datta \\\
+
+
+recurrent nueral network 
+
+-------------------forward --->
+
+       h1 → h2 → h3 → h4 → h5 → h6
+       ↓    ↓    ↓    ↓    ↓    ↓
+       D1   D2   D3   D4   D5   D6
