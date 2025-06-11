@@ -1,6 +1,5 @@
+import datetime
 import random
-from datetime import datetime
-from datetime import datetime
 
 def basic_ai_response(user_input):
     responses = [
