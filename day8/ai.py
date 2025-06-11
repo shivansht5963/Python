@@ -16,7 +16,9 @@ clf = RandomForestClassifier(random_state=42)
 clf.fit(X_train, y_train)
 
 # Predict on test set
+# Predict on test set and print first 5 predictions
 y_pred = clf.predict(X_test)
+print("First 5 predictions:", y_pred[:5])
 
 # Evaluate accuracy
 accuracy = accuracy_score(y_test, y_pred)
